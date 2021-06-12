@@ -1,0 +1,698 @@
+/* custom mp */
+html{
+  margin:0;
+padding:0;
+}
+body{
+  color: #333333;
+  background: #eeeeee;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.font-letter{
+  color: #7a9577;
+  font-family: "Sacramento", Sans-serif;
+}
+#head{
+  background-image: url(https://galipatstory.com/wp-content/uploads/2020/12/ORNAMEN-BG-01.png);
+  background-repeat: no-repeat no-repeat;
+  background-size: contain;
+  box-sizing: border-box;
+  height: 100%;
+  /* opacity: .5; */
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.our-wedding-icon{
+  max-width: 8% !important;
+}
+.our-wedding{
+  font-family: Raleway,sans-serif;
+  font-size: 33px;
+  font-weight: 500;
+  letter-spacing: .6px;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.quotes{
+  box-sizing: border-box;
+  color: #7a9577;
+  font-family: "Open Sans",sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -.2px;
+  line-height: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+
+#pengantin{
+  box-sizing: border-box;
+  color: #7a7a7a;
+  font-family: "Open Sans",sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -.2px;
+  line-height: 1.8em;
+  margin: 0;
+  padding: 0;
+}
+
+.putra,.putri{
+  color: #7a9577;
+  font-family: Sacramento,sans-serif;
+  font-size: 38px;
+  font-weight: 500;
+  letter-spacing: 1.1px;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.putra-dari,.putri-dari{
+  /* box-sizing: border-box; */
+  font-weight: 700;
+}
+
+.bapak,.ibu{
+  color: #7a7a7a;
+  font-family: "Open Sans",sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -.2px;
+  line-height: 2.1em;
+  margin: 0;
+  padding: 0;
+}
+
+.couple{
+  box-sizing: border-box;
+  display: flex;
+  padding: 10px;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+}
+
+.image{
+  border-radius: 0;
+           border-style: none;
+           box-shadow: none;
+           box-sizing: border-box;
+           display: inline-block;
+           height: auto;
+           max-width: 80%;
+           vertical-align: middle;
+}
+
+.play{
+  background-color: #000;
+  border-radius: 50%;
+  box-sizing: border-box;
+  color: #fff;
+  /* display: inline-block; */
+  fill: #fff;
+  font-size: 25px;
+  line-height: 1;
+  padding: .5em;
+  text-align: center;
+  transition-delay: 0s;
+  transition-duration: .3s;
+  transition-property: all;
+  transition-timing-function: ease;
+}
+
+.play:hover {
+  background-color: transparent;
+}
+
+#bg-2{
+  background-image: url(https://galipatstory.com/wp-content/uploads/2021/05/Faisal-Elin-1.jpeg);
+  /* background-position: -488px 0; */
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100%;
+  left: 0;
+  /* opacity: .33; */
+  position: relative;
+  top: 0;
+  transition-delay: 0s,0s,0s;
+  transition-duration: .3s,.3s,.3s;
+  transition-property: background,border-radius,opacity;
+  transition-timing-function: ease,ease,ease;
+  width: 100%;
+}
+
+.save-the-date{
+  box-sizing: border-box;
+  color: #121f38;
+  font-family: "Open Sans",sans-serif;
+  font-size: 33px;
+  font-weight: 500;
+  letter-spacing: 11px;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.undangan-pernikahan{
+  box-sizing: border-box;
+  color: #7a9577;
+  font-family: Sacramento,sans-serif;
+  font-size: 63px;
+  font-weight: 500;
+  letter-spacing: 1.1px;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.judul{
+  box-sizing: border-box;
+  color: #121f38;
+  font-family: "Open Sans",sans-serif;
+  font-size: 33px;
+  font-weight: 400;
+  letter-spacing: 11px;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.letter{
+  box-sizing: border-box;
+  color: #7a9577;
+  font-family: Sacramento,sans-serif;
+  font-size: 63px;
+  font-weight: 500;
+  letter-spacing: 1.1px;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.box-waktu{
+  position: relative;
+  max-width: 800px !important;
+  margin: auto;
+  padding-bottom: 35px;
+}
+
+#waktu{
+  margin-top: 180px;
+}
+
+.waktu-count{
+  background-color: #7a9577;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding: 10px 5px;
+  text-align: center;
+}
+
+.waktu-count>div.waktu{
+  box-sizing: border-box;
+  color: #fff;
+  display: block;
+  font-family: "Playfair Display",sans-serif;
+  font-size: 50px;
+  font-weight: var(--e-global-typography-secondary-font-weight);
+  line-height: 1.3em;
+  text-align: center;
+}
+
+.waktu-count>div.text-waktu{
+  box-sizing: border-box;
+  color: #fff;
+  display: block;
+  font-family: var(--e-global-typography-secondary-font-family),Sans-serif;
+  font-size: 18px;
+  font-weight: var(--e-global-typography-secondary-font-weight);
+  line-height: 1;
+  text-align: center;
+}
+
+.remember{
+  background-color: #7a9577;
+  border-radius: 3px;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-block;
+  fill: #fff;
+  font-family: var(--e-global-typography-accent-font-family),Sans-serif;
+  font-size: 15px;
+  font-weight: var(--e-global-typography-accent-font-weight);
+  line-height: 1;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition-delay: 0s;
+  transition-duration: .3s;
+  transition-property: all;
+  transition-timing-function: ease;
+  width: auto;
+  margin-bottom: 30px;
+}
+
+.remember:hover {
+  background-color: #344f31;
+  opacity: 1;
+  outline: 0;
+  color: #fff;
+}
+
+.text-remember{
+  box-sizing: border-box;
+  display: inline-block;
+  flex-grow: 1;
+  order: 10;
+  text-decoration: inherit inherit inherit;
+}
+
+.icon{
+  margin-right: 13px;
+}
+
+.remember>span>i{
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 400;
+  line-height: 1;
+  text-rendering: auto;
+}
+
+.text{
+  box-sizing: border-box;
+  color: #121f38;
+  font-family: "Open Sans",sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -.2px;
+  line-height: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+
+#momen{
+  background-image: url(https://galipatstory.com/wp-content/uploads/2020/12/ORNAMEN-BG-02.png);
+  background-repeat: no-repeat no-repeat;
+  background-size: contain;
+  box-sizing: border-box;
+  height: 100%;
+  left: 0;
+  /* opacity: .5; */
+  position: absolute;
+  top: 0;
+  transition-delay: 0s,0s,0s;
+  transition-duration: .3s,.3s,.3s;
+  transition-property: background,border-radius,opacity;
+  transition-timing-function: ease,ease,ease;
+  width: 100%;
+}
+
+.invitation-text{
+  box-sizing: border-box;
+  color: #121f38;
+  font-family: Raleway,sans-serif;
+  font-size: 33px;
+  font-weight: 400;
+  letter-spacing: .6px;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.momen-card{
+  background-color: #fff;
+  border-radius: 7px;
+  box-sizing: border-box;
+  display: flex;
+  padding: 40px 35px;
+  position: relative;
+  transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+  width: 100%;
+}
+
+.text-mp{
+  color: #7a9577;
+}
+
+.box-momen{
+  position: relative;
+  max-width: 800px !important;
+  margin: auto;
+  padding-bottom: 35px;
+}
+
+.text-momen-judul{
+  box-sizing: border-box;
+  color: #7a9577;
+  font-family: "Open Sans",sans-serif;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.text-momen-tanggal{
+  box-sizing: border-box;
+  color: #7a7a7a;
+  font-family: "Open Sans",sans-serif;
+  font-size: 16px;
+  font-weight: var(--e-global-typography-text-font-weight);
+  margin: 0;
+}
+
+.text-momen-pukul{
+  box-sizing: border-box;
+  color: #121f38;
+  font-family: Raleway,sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -.5px;
+  line-height: 1.3em;
+  margin: 0;
+  padding: 0;
+}
+
+.text-momen-jam{
+  box-sizing: border-box;
+  color: #121f38;
+  font-family: Raleway,sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -.5px;
+  line-height: 1.3em;
+  margin: 0;
+  padding: 0;
+}
+
+.maps{
+  border: 4px solid #7a9577;
+  box-shadow: rgba(0,0,0,.21) 0 30px 17px -19px;
+  box-sizing: border-box;
+  margin: 0 10px;
+  padding: 0;
+  transition-delay: 0s,0s,0s,0s,0s,0s;
+  transition-duration: .3s,.3s,.3s,.3s,.3s,.3s;
+  transition-property: background,border,border-radius,box-shadow,-webkit-border-radius,-webkit-box-shadow;
+  transition-timing-function: ease,ease,ease,ease,ease,ease;
+}
+
+.mapsz{
+  box-sizing: border-box;
+  line-height: 0;
+}
+
+  span.divider-separator {
+    align-items: center;
+    direction: ltr;
+    display: flex;
+    margin: 0 auto;
+    width: 33%;
+  }
+
+.ucapan{
+  box-sizing: border-box;
+  color: #121f38;
+  font-family: Raleway,sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: .6px;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.form-control{
+    background-color: #fcfcfc;
+    border-radius: 4px;
+    border-style: none;
+    box-shadow: rgba(0,0,0,.15) 0 1px 1px;
+    color: #555f77;
+    display: block;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0 0 15px;
+    outline: 0;
+    padding: 5px 10px;
+    transition-delay: 0s;
+    transition-duration: 350ms;
+    transition-property: box-shadow;
+    transition-timing-function: ease;
+    width: 100%;
+}
+  textarea.form-control {
+    background-color: #fcfcfc;
+    border-radius: 4px;
+    border-style: none;
+    box-shadow: rgba(0,0,0,.15) 0 1px 1px;
+    color: #555f77;
+    display: block;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0 0 15px;
+    outline: 0;
+    overflow: auto;
+    padding: 5px 10px;
+    transition-delay: 0s;
+    transition-duration: 350ms;
+    transition-property: box-shadow;
+    transition-timing-function: ease;
+    width: 100%;
+  
+}
+
+div.button-wrapper {
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+button.kirim-ucapan {
+  appearance: button;
+  background-color: #7a9577;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  fill: #fff;
+  font-family: ABeeZee,sans-serif;
+  font-size: 18px;
+  font-weight: var(--e-global-typography-accent-font-weight);
+  line-height: 1;
+  margin: 0;
+  opacity: 1;
+  overflow: visible;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  transition-delay: 0s;
+  transition-duration: .3s;
+  transition-property: all;
+  transition-timing-function: ease;
+}
+div.list-ucapan {
+  font-size: 14px;
+  height: 270px;
+  margin-top: 40px;
+  overflow: auto;
+  padding: 5px 15px 0 0;
+  text-align: left;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+div.ucapan-teman {
+  align-items: flex-start;
+  display: flex;
+  margin-bottom: 10px;
+}
+img.img{
+  
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: rgba(0,0,0,.2) 0 1px 2px;
+    height: 40px;
+    max-width: 100%;
+    overflow: hidden;
+    right: 10px;
+    top: 0;
+    width: 40px;
+  
+}
+
+
+
+div.guest-book{
+    background-color: #fcfcfc;
+    border-radius: 8px;
+    box-shadow: rgba(0,0,0,.15) 0 1px 1px;
+    display: block;
+    flex: 1;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    min-height: 60px;
+    padding: 8px;
+    position: relative;  
+}
+div.guest-book:after{
+  border-width: 10px 10px 10px 0;
+  border-style: solid;
+  border-color: transparent #fcfcfc;
+  content: "";
+  left: -7px;
+  position: absolute;
+  top: 9px;
+}
+div.guestbook-nama {
+  color: #acb4c2;
+  font-family: var(--e-global-typography-accent-font-family),Sans-serif;
+  font-size: 12px;
+  font-weight: var(--e-global-typography-accent-font-weight);
+  text-decoration: none;
+  transition-delay: 0s;
+  transition-duration: 350ms;
+  transition-property: color;
+  transition-timing-function: ease;
+}
+div.guestbook-ucapan {
+  color: #555f77;
+  font-family: var(--e-global-typography-accent-font-family),Sans-serif;
+  font-size: 15px;
+  font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.shape-fill{
+  fill: #7A9577;
+}
+
+div.masker{
+  
+    color: #3d3d3d;
+    font-family: "Medula One",sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.4em;
+    margin: 0;
+    padding: 0;
+  
+}
+
+img.attachment-full.size-full {
+  border-radius: 0;
+  border-style: none;
+  box-shadow: none;
+  height: auto;
+  max-width: 100%;
+  transition-duration: .3s;
+
+  display: inline-block;
+  margin: 0 0 0 33px;
+  width: 35%;
+}
+p.text-covid{
+  
+    color: #3d3d3d;
+    font-family: "Medula One",sans-serif;
+    font-size: 26px;
+    font-weight: var(--e-global-typography-text-font-weight);
+    line-height: 1.2em;
+    margin: 0;
+  
+}
+.container-covid{
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+
+.container .gallery a img {
+  float: left;
+  width: 25%;
+  height: auto;
+  border: 2px solid #fff;
+  -webkit-transition: -webkit-transform .15s ease;
+  -moz-transition: -moz-transform .15s ease;
+  -o-transition: -o-transform .15s ease;
+  -ms-transition: -ms-transform .15s ease;
+  transition: transform .15s ease;
+  position: relative;
+}
+
+.clear {
+  clear: both;
+}
+
+a {
+  color: #009688;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #01695f;
+  text-decoration: none;
+}
+
+
+@media (max-width: 576px) { 
+  .our-wedding-icon{
+    max-width: 25% !important;
+  }
+  .image{
+    max-width: 100%;
+  }
+  .quotes{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -.2px;
+    line-height: 1.2em;
+    margin-bottom: 25px;
+  }
+  .bapak,.ibu{
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .save-the-date{
+    font-size: 25px;
+  }
+.judul{
+  margin-bottom: 0.1em;
+}
+.letter{
+  font-size: 35px;
+  font-weight: 500;
+}
+.waktu-count{
+  border-radius: 15px;
+  margin-left: -3px;
+  margin-right: -3px;
+  padding: -4px 0px 10px;
+}
+.waktu-count>div.waktu{
+  color: #fff;
+  font-size: 50px;
+  line-height: 1.3em;
+}
+.waktu-count>div.text-waktu{
+  color: #fff;
+  font-size: 18px;
+  line-height: 1;
+}
+ }
